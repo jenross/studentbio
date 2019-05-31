@@ -2,40 +2,68 @@
     box-sizing: border-box;
   }
 
+body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      line-height: 150%;
+      color: #333;
+      background: #efeee7; 
+      display: flex; 
+      flex-direction: column; 
+}
+  
+header {
+    background: #333;
+}
+
 h1 {
+    padding: 20px 0;
+    margin: 0;
     margin-bottom: 20px;
-    font-size: 60px;
+    font-size: 28px;
     color: white;
     text-align: center;
-    background-color: black;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 24px;
 }
 
-.main-bio {
-    display: inline-block;
+a {
+    color: #d21034;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    flex: 1 0 auto;
+    display: block; 
+}
+
+#main-bio, 
+#contact-info, 
+#bio-image {
     float: left;
 }
 
-img {
-    margin-left: 20px;
+#main-bio {
+    width: 65%;
 }
 
-#aboutme {
-    font-size: 20px;
-    margin-left: 20px;
-    display: inline-block;
+#contact-info {
+    width: 35%;
 }
 
-#name {
-    text-align: left;
-    margin-left: 30px;
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
 
-.contactinfo {
-    display: inline-block;
-    float:right;
-    margin-left: 25px;
+footer {
+    margin-top: 0;
+    padding: 1rem 0;
+    text-align: center;
 }

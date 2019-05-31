@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,22 +15,26 @@
         <header role="banner">
         <h1>Student Bio</h1>
         </header>
-    
-        <section role="region" class="main-bio">
+        
+        <div class="container">
+        <section role="region" id="main-bio">
         <h2 id="name">Jennifer Ross</h2>
-        <img src="Jenvatar circle 350 better.png" alt="Cartoon drawing of me" style="width:200px;height:200px;">
-        <p id="aboutme">Hi, my name is Jennifer Ross and I'm an online educator learning to code.</p>
+        <img id="bio-image" src="Jenvatar circle 350 better.png" alt="Cartoon drawing of me">
+        <p id="about-me">Hi, my name is Jennifer Ross and I'm an online educator learning to code.</p>
         </section>
     
-        <section class="contactinfo">
-        <h2 id="contacthead">Contact Info</h2>
+        <section id="contact-info">
+        <h2 id="contact-head">Contact Info</h2>
             <ul>
-                <li>Email: <a href="mailto:ross.m.jennifer@gmail.com?subject=Hello">ross.m.jennifer@gmail.com</a></li>
-                <li>GitHub: <a href="https://github.com/jenross" target="_blank">Jen Ross</a></li>
-                <li>Portfolio: <a href="#">Coming soon</a></li>
+                <li><strong>Email:</strong> <a href="mailto:ross.m.jennifer@gmail.com?subject=Hello">ross.m.jennifer@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/jenross" target="_blank">Jen Ross</a></li>
+                <li><strong>Portfolio:</strong> <a href="#">Coming soon</a></li>
             </ul>
         </section>
-        
+        </div>
+
     </main> 
+
+    <footer role="contentinfo">© Created by Jennifer Ross, 2019</footer>
 </body>
 </html>
