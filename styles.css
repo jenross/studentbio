@@ -14,7 +14,7 @@ h2 {
     font-size: 30px;
 }
 
-#main-bio {
+.main-bio {
     display: inline-block;
     float: left;
 }
